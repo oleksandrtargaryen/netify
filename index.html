@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oleksandr Bartoshko</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #0b0c10;
+      color: #ffffff;
+    }
+    header {
+      background: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//blog/bg.jpg') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+      text-shadow: 0 0 15px #000;
+    }
+    header p {
+      font-size: 1.4rem;
+      max-width: 700px;
+      margin-top: 20px;
+      text-shadow: 0 0 10px #000;
+    }
+    .btn {
+      margin-top: 25px;
+      font-size: 1.2rem;
+      padding: 12px 30px;
+      background: #e63946;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-block;
+      transition: 0.3s;
+      text-decoration: none;
+      color: white;
+    }
+    .btn:hover { background: #ce2d3a; }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #1f2833;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      padding: 25px;
+      background: #111;
+      text-align: center;
+      margin-top: 40px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Dota 2</h1>
+      <p>Епічна мультиплеєрна стратегія, у якій ти керуєш героєм, борешся в команді та проявляєш тактичний розум.</p>
+      <a class="btn" href="https://store.steampowered.com/app/570/Dota_2/" target="_blank">Грати безкоштовно</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Особливості гри</h2>
+    <div class="features">
+      <div class="card">
+        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/antimage.png" />
+        <h3>100+ Героїв</h3>
+        <p>Обирай унікальних персонажів з різними стилями гри та здібностями.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//home/heroes.jpg" />
+        <h3>Командна Гра</h3>
+        <p>Координуйся з союзниками, продумуй стратегії та досягай перемоги.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//home/bg_gameplay.jpg" />
+        <h3>Глибока Мета</h3>
+        <p>Постійні оновлення, патчі та зміни роблять гру завжди свіжою та складною.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
